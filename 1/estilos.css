@@ -23,6 +23,11 @@ a:hover {
 	width: 100%;
 }
 
+header .navbar {
+    position: sticky;
+    top: 0;
+}
+
 .navbar a {
 	display: inline-block;
 	padding: 20px 70px;
@@ -33,7 +38,6 @@ a:hover {
 }
 
 .navbar a:hover {
-	background: #090C08;
 	background: #0A2E36;
 	color: #fff;
 	text-decoration: none;
@@ -63,9 +67,11 @@ a:hover {
 	min-width: 30%;
     margin: 40px 20px 20px 0;
     height: 100%;
-    background: #1D2F3D;
+    background: #1d2f3dd1;
     padding: 20px;
     border-radius: 3px;
+    position: sticky;
+    top: 20px;
 }
 
 .navLeft h3 {
@@ -77,7 +83,7 @@ a:hover {
 	display: block;
 	width: 100%;
 	padding: 5px;
-	color: #ddd729;
+	color: #B48291;
 }
 
 .post {
