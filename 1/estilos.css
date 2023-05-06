@@ -44,6 +44,7 @@ a:hover {
 	max-width: 1000px;
 	width: 90%;
 	margin: auto;
+	justify-content: space-between;
 }
 
 .contenedor-imagen {
@@ -56,4 +57,51 @@ a:hover {
 	vertical-align: top;
 	object-fit: cover;
 	object-position: 0 bottom;
+}
+
+.navLeft {
+	min-width: 30%;
+    margin: 40px 20px 20px 0;
+    height: 100%;
+    background: #1D2F3D;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.navLeft h3 {
+	padding: 10px;
+	color: #fff;
+}
+
+.navLeft a {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	color: #ddd729;
+}
+
+.post {
+	display: block;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+}
+
+.article-title {
+	font-weight: inherit;
+	padding-top: 40px;
+}
+
+.info-date {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	color: gray;
+	font-size: 13px;
+	font-weight: inherit;
+}
+
+.topic {
+	line-height: 30px;
+	color: #525151;
+	margin-bottom: 20px;
 }
